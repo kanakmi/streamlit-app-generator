@@ -1,6 +1,10 @@
 import streamlit as st
 from buildCode import buildCode
 
+st.set_page_config(
+    page_title="Streamlit App Generator",
+    page_icon=":streamlit:")
+
 st.title("Streamlit App Generator")
 
 st.sidebar.image("Hugging Face.jpg")
